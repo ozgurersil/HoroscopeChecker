@@ -23,9 +23,7 @@ class HoroscopeHandler  {
     let horoscopes:[String] = ["Aries","Taurus","Gemini","Cancer","Leo","Virgo","Libra","Scorpio","Sagittarius","Capricorn","Aquarius","Piches"]
     var horoscope:String = ""
     
-    func HoroscopeHandler(){
-        print("init")
-    }
+   
 
     func checkHoroscopeByDate(dateStr:String) {
         let startIndex = dateStr.startIndex.advancedBy(3)
