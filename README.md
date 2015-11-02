@@ -5,6 +5,9 @@ Usage:
 
 let hhandler:HoroscopeHandler = HoroscopeHandler()
 
-hhandler.checkHoroscopeByDate(birthday)
+hhandler.checkHoroscopeByDate("01/03/1984")
 
 let horoscope:String = hhandler.getHoroscope() as! String
+
+print(horoscope) // returns selected horoscope
+
